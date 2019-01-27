@@ -1,0 +1,36 @@
+{{ partial "head.html" . }}
+
+{{ partial "navigation.html" . }}
+
+<section>
+	<div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:70px;">		
+		<div class="w3-row-padding"> 
+			{{range .Pages}}
+	   			{{if .Params.home}}  
+		   			<section class="highlight">	
+   		<div class="w3-row">   	
+    		<div class="w3-col m6 w3-padding-large w3-margin-top">
+     			<img src="{{ .URL }}image/profile.jpg" alt="{{.Title}}"  class="w3-round w3-image w3-opacity-min" width="600" height="750">
+    		</div>
+	    	<div class="w3-col m6 w3-padding-large">
+	      		<h1 class="w3-center">{{.Title}}</h1>
+	      		<hr>
+	      		<p class="w3-large para">{{.Content}}</p>    	
+	    	</div>
+	    </div>	    	    
+	    <div class="w3-padding">
+		    {{ $parts := .Resources.Match  "part*.md" }}
+			{{range $parts}}
+			<hr>
+			<b>{{.Params.heading}}</b>		
+			{{.Content}}
+			{{end}}
+	    </div>		  
+	</section>	 				  		   					
+	  			{{end}}
+	   		{{end}}  		
+	   	</div>	   	
+  	</div>
+</section>
+
+{{ partial "footer.html" . }}

@@ -1,0 +1,86 @@
+baseURL = "http://dwijendranathbhakat.com/dnbhakat"
+languageCode = "en-us"
+title = "Dr. Dwijendra Nath Bhakat"
+defaultContentLanguage = "as"
+
+[languages]
+
+	#Assamese
+	[languages.as]
+	languageName = "As"
+	title = "AS"
+	weight = 1
+	
+	[Languages.as.params.languageLink]
+		name = "অস"
+	
+	[Languages.as.params.logo]
+		logo1 = "বনমালী"
+		logo2 = "প্ৰকাশন"
+		
+	[Languages.as.params.contents]
+		contact = "যোগাযোগ"
+		contact_us = "যোগাযোগ কৰক"
+		authors_banner = "লেখক আমাৰ লগত যুক্ত"
+		author_banner = "লেখক সম্পর্কে"
+		author_book = "লেখকৰ কিতাপ"
+		fotter_head = "Powered by"
+		fotter_detail = "Xcavan Web Development"
+		author = "লেখক"
+		price = "মূল্য"
+	
+	# navigation    
+      [[Languages.as.menu.main]]
+        weight = 1
+        name = "লেখক"
+        url = "/"
+        
+      [[Languages.as.menu.main]]
+        weight = 2
+        name = "কিতাপ"
+        url = "/books"
+        
+      [[Languages.as.menu.main]]
+        weight = 3
+        name = "বঁটা লাভ আৰু সম্বৰ্ধনা আদি"
+        url = "/pages"     
+		
+	#English
+	[languages.en]
+	languageName = "En"
+	title = "EN"
+	weight = 2
+	
+	[Languages.en.params.languageLink]
+		name = "EN"
+	
+	[Languages.en.params.logo]
+		logo1 = "Banamali"
+		logo2 = "Publication"
+		
+	[Languages.en.params.contents]
+		contact = "Contact"
+		contact_us = "Contact us"
+		authors_banner = "Authors associated with us"
+		author_banner = "About the Author"
+		fotter_head = "Powered by"
+		fotter_detail = "Xcavan Web Development"
+		author_book = "Books by the author"
+		author = "Author"
+		price = "Price"
+	
+	# navigation        
+      [[Languages.en.menu.main]]
+        weight = 1
+        name = "Home"
+        url = "/en/"
+        
+      [[Languages.en.menu.main]]
+        weight = 2
+        name = "Books"
+        url = "/en/books"
+        
+      [[Languages.en.menu.main]]
+        weight = 3
+        name = "Awards & Recognition"
+        url = "/en/pages"

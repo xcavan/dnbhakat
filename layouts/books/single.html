@@ -1,0 +1,25 @@
+{{ partial "head.html" . }}
+
+{{ partial "navigation.html" . }}
+
+<!-- page contents -->
+<div class="w3-main w3-content w3-padding highlight" style="max-width:1200px;margin-top:80px;margin-bottom:20px">
+	<section class="">	
+		<hr>
+   		<div class="w3-row">   	
+    		<div class="w3-right-align w3-third w3-padding-large">
+     			<img src="{{ .URL }}image/default.jpg" alt="{{.Title}}"  class="w3-image w3-opacity-min" width="300" height="450">
+    		</div>
+	    	<div class="w3-twothird w3-padding-large">
+	      		<h1 class="w3-center">{{.Title}}</h1>
+	      		<h5 class="w3-center">{{ .Site.Params.Contents.author}}: {{.Params.author}}</h5>
+	      		<h6 class="w3-center">{{ .Site.Params.Contents.price}} &#8377; {{.Params.price}}</h6>
+	      		<hr>      		
+	      		<p class="w3-large">{{.Content}}</p>      	
+	    	</div>
+    	</div>
+	</section>
+	<hr>
+</div>
+
+{{ partial "footer.html" . }}				 			

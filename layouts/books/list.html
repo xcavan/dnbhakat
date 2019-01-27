@@ -1,0 +1,16 @@
+{{ partial "head.html" . }} {{ partial "navigation.html" . }}
+
+<section>
+	<div class="w3-main w3-content w3-padding"
+		style="max-width: 1200px; margin-top: 70px;">
+		<div class="w3-row-padding">
+			<section class="highlight w3-padding-large">
+				<h1 class="w3-center">{{.Params.heading}}</h1>
+				<hr>
+				{{.Content}}
+			</section>
+		</div>
+	</div>
+</section>
+
+{{ partial "footer.html" . }}

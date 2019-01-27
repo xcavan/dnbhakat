@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html  lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+
+<head>
+  <meta charset="utf-8">
+  <title>{{ .Site.Params.logo.logo1 }} {{ .Site.Params.logo.logo2 }}</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
+  <link rel="stylesheet" href="{{ .Site.BaseURL }}lib/w3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+	body,h1,h2,h3,h4,h5,h6 {
+		font-family: "adobe-bengali", sans-serif;
+		font-style: normal;
+		font-weight: 400;
+	}	
+	p{
+		text-align: justify;
+  		text-justify: inter-word;
+	}	
+	a{
+		text-decoration: none;
+		color: #0303a9;
+	}
+	
+	.w3-bar-block .w3-bar-item {padding:20px}
+	.base{
+		background: whitesmoke;
+	}	
+	.highlight{
+		background: white;
+	}
+	.books{
+		height: 350px;
+	}
+  </style>
+  
+</head>
+
+<body class="base">	
+	<script>
+	// Script to open and close sidebar
+	function myFunction() {
+    	var x = document.getElementById("navigator");
+    	if (x.className.indexOf("w3-show") == -1) {
+    	    x.className += " w3-show";
+    	} else { 
+    	    x.className = x.className.replace(" w3-show", "");
+    	}
+	}
+	
+	window.onload = function() {		
+		/*var changeLanguage1 = document.getElementById("changeLanguage1");
+		var changeLanguage2 = document.getElementById("changeLanguage2");
+		var baseUrl = {{ .Site.BaseURL}};
+		var cookie = document.cookie;
+		var language = {{ .Site.Language}};
+		if(cookie === ""){
+			document.cookie = language.Lang;
+		}else if(cookie !== language.Lang){
+			var url = document.location;			
+			window.open(baseUrl);
+		}
+        		
+		var changeLanguage = function(oSource) {
+			if(oSource.srcElement.text  === "EN"){
+				document.cookie = "lang=as;path=/dnbhakat/";
+			}else{
+				document.cookie = "lang=en;path=/dnbhakat/";
+			}
+			return true;
+        }
+		
+		changeLanguage1.onclick = changeLanguage;
+		changeLanguage2.onclick = changeLanguage;
+		*/
+	    var tables = document.getElementsByTagName("table"),
+	        len = tables !== null ? tables.length : 0,
+	        i = 0;
+	    for(i; i < len; i++) {
+	        tables[i].className += " w3-table-all"; 
+	    }
+	}
+	</script>
