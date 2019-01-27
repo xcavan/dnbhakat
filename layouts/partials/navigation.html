@@ -1,7 +1,7 @@
 <div class="w3-top">
 	{{$home :=  (index .Site.Menus.main 0) }}
 	<div class="w3-bar w3-white w3-wide w3-padding w3-card">	
-	  	<a href="{{$home.URL}}" class="w3-bar-item w3-button w3-hover-none"><b>{{ .Site.Title }}</b></a>
+	  	<a href="{{$home.URL}}" class="w3-bar-item w3-button w3-hover-none"><b>{{ .Site.Params.logo.logo1 }}</b></a>
 	  	<div class="w3-right w3-hide-small">
 			{{ range .Site.Menus.main }}	  		
 	  		<a href="{{ .URL }}" class="w3-bar-item w3-button w3-hover-none w3-text-grey w3-hover-text-red">{{ .Name }}</a>

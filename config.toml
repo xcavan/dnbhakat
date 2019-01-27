@@ -15,8 +15,7 @@ defaultContentLanguage = "as"
 		name = "অস"
 	
 	[Languages.as.params.logo]
-		logo1 = "বনমালী"
-		logo2 = "প্ৰকাশন"
+		logo1 = "ড০ দ্বিজেন্দ্ৰ নাথ ভকত"
 		
 	[Languages.as.params.contents]
 		contact = "যোগাযোগ"
@@ -42,7 +41,7 @@ defaultContentLanguage = "as"
         
       [[Languages.as.menu.main]]
         weight = 3
-        name = "বঁটা লাভ আৰু সম্বৰ্ধনা আদি"
+        name = "বঁটা লাভ আৰু সম্বৰ্ধনা"
         url = "/pages"     
 		
 	#English
@@ -55,8 +54,7 @@ defaultContentLanguage = "as"
 		name = "EN"
 	
 	[Languages.en.params.logo]
-		logo1 = "Banamali"
-		logo2 = "Publication"
+		logo1 = "Dr. Dwijendra Nath Bhakat"		
 		
 	[Languages.en.params.contents]
 		contact = "Contact"
