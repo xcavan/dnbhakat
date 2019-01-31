@@ -8,7 +8,7 @@ synopsis: "this is a test description"
 draft: false
 ---
 
-*Bhakti Ratnakar Xar* is a synopsis of the Sanskrit book *Bhakti Ratnakar* composed by *Mohapurux* Srimanta Sankardev. In this book, thirty eight excellence of the original book are described briefly. This is a valuable book for all kind of readers.
+*Bhakti Ratnakar Xar* is a synopsis of the Sanskrit book *Bhakti Ratnakar* composed by *Mohapurush* Srimanta Sankardev. In this book, thirty eight *mahatmya* i.e. parts of the original book are described briefly. This is a valuable book for all kind of readers.
 
 First Edition : 2003
 

@@ -2,7 +2,7 @@
 bookNo: "1"
 title: "Jagriti"
 date: 2019-01-26T15:35:03+05:30
-author: "Dr. Dwijendra Nath Bhakat"
+editor: "Dr. Dwijendra Nath Bhakat"
 price: "12"
 synopsis: "test"
 draft: false

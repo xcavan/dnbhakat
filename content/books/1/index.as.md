@@ -2,7 +2,7 @@
 bookNo: "1"
 title: "জাগৃতি"
 date: 2019-01-26T15:35:03+05:30
-author: "ড০ দ্বিজেন্দ্ৰ নাথ ভকত"
+editor: "ড০ দ্বিজেন্দ্ৰ নাথ ভকত"
 price: "12"
 synopsis: "test"
 draft: false
