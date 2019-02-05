@@ -11,9 +11,9 @@ draft: false
 
 **Assamese Books**
 
-1. [*Sri Sri Sankardev Birachita Bargeet*](./2) – 1992
+1. [*Sri Sri Sankardev Birachita Bargeet*](./sri-sri-sankardev-birachita-bargeet) – 1992
 2. *Sri Sankardev-Madhavdev Birachita Bargeet* - 1992
-3. [*Kirtan: Ek Samīkṣātmak Ālōcanā*](./4) - 1994
+3. [*Kirtan: Ek Samīkṣātmak Ālōcanā*](./kirtan-ek-samīkṣātmak-ālōcanā) - 1994
 4. *Satrar Samīkṣātmak Itibritta (Poshchim Axom Aaru Uttar Banga)* - 1995
 5. *Jibon Mukut Harihar Aatar Charit* - 1996
 6. *Rajbangshi Bhaxa Xahityar Porisoy* – 2000
@@ -21,7 +21,7 @@ draft: false
 8. *Kushaan Gaan* – 2001
 9. *George Abraham Grierson Aaru Bharotiyo Bhaxa Xahitya* – 2002
 10. *Xata Janar Smritit Pratima Baruah Pandey (Jibon Aaru Gaan)* – 2003
-11. [*Bhakti Ratnakar Xar*](./3) – 2004
+11. [*Bhakti Ratnakar Xar*](./bhakti-ratnakar-xar) – 2004
 12. *Dr. Dhiren Das: Xonali Smriti* (Ed.) – 2006
 13. *Jadabananda Adhikary: Jiban Aaru Krittitva* (Ed.) - 2006
 14. *Naranarayan-Chilarai* – 2006
@@ -50,7 +50,7 @@ draft: false
 9. *Gopichander Gaan (Rajbangshi Kabya)* – 2015
 10. *Bhaoyaiya Gaan Shamiksha* – 2016
 11. *Koch Rajbangshi Shahitya Shabhar Shabhapatir Bhaashan* – 2018
-12. [*Jagriti*](./1) (Ed.)- 1996
+12. [*Jagriti*](./jagriti) (Ed.) - 1996
 
 **English Books**
 

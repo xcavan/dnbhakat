@@ -1,7 +1,8 @@
-baseURL = "https://xcavan.github.io/dnbhakat/"
+baseURL = "https://dwijendranath.bhakat.com/"
 languageCode = "en-us"
 title = "Dr. Dwijendra Nath Bhakat"
 defaultContentLanguage = "as"
+disableKinds = ["taxonomy", "taxonomyTerm", "RSS"]
 
 [languages]
 
